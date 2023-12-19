@@ -17,7 +17,7 @@ const Blog = () => {
       <TNav />  
           <div className="topnav" id='mxw_nav'>
         <center>
-        <Link to="/"><span title="Home"><i className='fa fa-home'></i>&ensp;Home</span></Link>
+        <Link to="*"><span title="Home"><i className='fa fa-home'></i>&ensp;Home</span></Link>
         <Link to="/library"><span title="Library"><i className='fa fa-book'></i>&ensp;Library</span></Link>
         <Link to="/contact"><span title="Contact"><i className='fa fa-phone'></i>&ensp;Contact</span></Link>
         <Link to="/dic"><span title="Search"><i className='fa fa-search-plus'></i>&ensp;ITD</span></Link>
@@ -28,7 +28,7 @@ const Blog = () => {
     <br className="br"/>
     <br className="br"/>
     <div className="sub-nav">
-        <Link to="/"><a style={{cursor: "pointer" , color:"#009000" , fontSize:"16px"}}>Home</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a style={{ fontSize:"16px"}}>Blog</a>
+        <Link to="*"><a style={{cursor: "pointer" , color:"#009000" , fontSize:"16px"}}>Home</a><i className="fa fa-angle-right" style={{color:"green"}}></i></Link><a style={{ fontSize:"16px"}}>Blog</a>
     </div>
     <br/>
        
@@ -374,7 +374,7 @@ const Blog = () => {
   
     <ScrollToTop smooth/>
        <div className="navbarc" id="myNavbarc">
-             <Link to="/"><span className="fa fa-home" title="Home"><br/><small className="smaller">Home</small></span></Link>
+             <Link to="*"><span className="fa fa-home" title="Home"><br/><small className="smaller">Home</small></span></Link>
              <Link to="/library"><span className="fa fa-book" title="library"><br/><small className="smaller">Library</small></span></Link>
              <Link to="/contact"><span  className="fa fa-phone" title="contact"><br/><small className="smaller">Contact</small></span></Link>
              <Link to="/dic"><span className="fa fa-search-plus" title="search for"><br/><small className="smaller">ITD</small></span></Link>

@@ -40,12 +40,12 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route>
-         <Route path="/" element={<Home />} />
+         <Route path="*" element={<Home />} />
           <Route path="library" element={<Library />} />
           <Route path="collection" element={<Collection />} />
           <Route path="dic" element={<Dic />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} />
+          <Route path="/" element={<NoPage />} />
           <Route path="hardware" element={<Hardware />} />
           <Route path="net" element={<Net />} />
           <Route path="electronic" element={<Electronic />} />

@@ -39,7 +39,7 @@ const LearnCd = () => {
 	   <br/>
 
 	   <p style={{fontSize:"25px", color:"grey"}}>Already have an account?</p>
-	   <Link to="/">
+	   <Link to="*">
 	   <center style={{color:"green"}}>Sign-up</center>
 	   </Link>
 	   </div>

@@ -74,7 +74,7 @@ const Website = () => {
       <TNav />     
        <div className="topnav" id='mxw_nav'>
         <center>
-        <Link to="/"><span title="Home"><i className='fa fa-home'></i>&ensp;Home</span></Link>
+        <Link to="*"><span title="Home"><i className='fa fa-home'></i>&ensp;Home</span></Link>
         <Link to="/library"><span title="Library"><i className='fa fa-book'></i>&ensp;Library</span></Link>
         <Link to="/contact"><span title="Contact"><i className='fa fa-phone'></i>&ensp;Contact</span></Link>
         <Link to="/dic"><span title="Search"><i className='fa fa-search-plus'></i>&ensp;ITD</span></Link>

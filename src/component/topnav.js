@@ -9,7 +9,7 @@ function TNav(){
     return(
         <>
         <div id="navbar">
-    <Link to="/"><img src={require('../img/logo.png')} className="logo" title="Home" />
+    <Link to="*"><img src={require('../img/logo.png')} className="logo" title="Home" />
     <span className="lg-nm">&nbsp;{brand}</span>
     
     </Link>
