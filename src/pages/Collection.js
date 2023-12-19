@@ -61,6 +61,7 @@ function save(){
     
 
     document.getElementById("module").style.display=localStorage.getItem("d")
+    
 }
 
 const Collection = () => {
