@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/al-app/static/css/main.8c571387.css",
-    "main.js": "/al-app/static/js/main.6964eaaa.js",
+    "main.css": "/al-app/static/css/main.74b781fa.css",
+    "main.js": "/al-app/static/js/main.234710b6.js",
     "static/media/squad.png": "/al-app/static/media/squad.e692c466eef24df06aff.png",
     "static/media/space.png": "/al-app/static/media/space.5cbfe8dcea8a963a173e.png",
     "static/media/solar.png": "/al-app/static/media/solar.7eb570c493237e4b574f.png",
-    "static/media/smoke.mp4": "/al-app/static/media/smoke.19ccac52415a702bff98.mp4",
     "static/media/creative.png": "/al-app/static/media/creative.30e1695dcf7f58deacec.png",
     "static/media/myfmly.png": "/al-app/static/media/myfmly.c0142b3fb64f06cc9a6d.png",
     "static/media/melodi.png": "/al-app/static/media/melodi.78cd7f92dcb4a85b9020.png",
@@ -77,6 +76,7 @@
     "static/media/hlsps.png": "/al-app/static/media/hlsps.17492920d94452a6f7f9.png",
     "static/media/news-4.jpg": "/al-app/static/media/news-4.7baac2bc28c6fc1fb6d3.jpg",
     "static/media/arc-6.png": "/al-app/static/media/arc-6.3e8a834790ef704f2b39.png",
+    "static/media/logo.mp4": "/al-app/static/media/logo.5aa408ecb92ad80cd203.mp4",
     "static/media/arc-7.png": "/al-app/static/media/arc-7.84cf3dce7a88ec8b665f.png",
     "static/media/news-5.jpg": "/al-app/static/media/news-5.d9c45891df80905de8ad.jpg",
     "static/media/caraft.png": "/al-app/static/media/caraft.b5077b9da82c5534e157.png",
@@ -102,12 +102,12 @@
     "static/media/achi.jpg": "/al-app/static/media/achi.1f75cb63d1eb08b36064.jpg",
     "static/media/team-3.jpg": "/al-app/static/media/team-3.ca581ae1628e295ec2a0.jpg",
     "static/media/ustora.png": "/al-app/static/media/ustora.7d1431727f122649c4f9.png",
-    "static/media/logo.png": "/al-app/static/media/logo.7d4ff606949976e69d1a.png",
     "static/media/product-2.jpg": "/al-app/static/media/product-2.e59db017a8627e06b959.jpg",
     "static/media/team-4.jpg": "/al-app/static/media/team-4.525dee063b26d6a44d1d.jpg",
     "static/media/elecomp.jfif": "/al-app/static/media/elecomp.706a8528bdd59ecdce3b.jfif",
     "static/media/about.jpg": "/al-app/static/media/about.c4227fd032c6a3f2c1b7.jpg",
     "static/media/phil.jpg": "/al-app/static/media/phil.6daf9606c56e6dd92937.jpg",
+    "static/media/logo.png": "/al-app/static/media/logo.7048c73d94ba0e471dad.png",
     "static/media/product-1.jpg": "/al-app/static/media/product-1.59317eca101faef7fff9.jpg",
     "static/media/product-3.jpg": "/al-app/static/media/product-3.20361ab11b9417613069.jpg",
     "static/media/arti.jpg": "/al-app/static/media/arti.f9016262833eb4fc57b5.jpg",
@@ -148,11 +148,11 @@
     "static/media/repeater.jfif": "/al-app/static/media/repeater.05db68c759716f281331.jfif",
     "static/media/transformer.jfif": "/al-app/static/media/transformer.a1663711957cdb6bff9f.jfif",
     "index.html": "/al-app/index.html",
-    "main.8c571387.css.map": "/al-app/static/css/main.8c571387.css.map",
-    "main.6964eaaa.js.map": "/al-app/static/js/main.6964eaaa.js.map"
+    "main.74b781fa.css.map": "/al-app/static/css/main.74b781fa.css.map",
+    "main.234710b6.js.map": "/al-app/static/js/main.234710b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c571387.css",
-    "static/js/main.6964eaaa.js"
+    "static/css/main.74b781fa.css",
+    "static/js/main.234710b6.js"
   ]
 }
