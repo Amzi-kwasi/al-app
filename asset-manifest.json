@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/al-app/static/css/main.74b781fa.css",
-    "main.js": "/al-app/static/js/main.234710b6.js",
+    "main.css": "/al-app/static/css/main.2ad75e7d.css",
+    "main.js": "/al-app/static/js/main.84ee303c.js",
     "static/media/squad.png": "/al-app/static/media/squad.e692c466eef24df06aff.png",
     "static/media/space.png": "/al-app/static/media/space.5cbfe8dcea8a963a173e.png",
     "static/media/solar.png": "/al-app/static/media/solar.7eb570c493237e4b574f.png",
@@ -57,7 +57,6 @@
     "static/media/yoghurt.png": "/al-app/static/media/yoghurt.3bddc0c98591f1aac161.png",
     "static/media/hero-bg.jpg": "/al-app/static/media/hero-bg.1bd2e8e67354a8b48baf.jpg",
     "static/media/arc-1.png": "/al-app/static/media/arc-1.abd8ffbe4ac18bcb2e6d.png",
-    "static/media/arts.jpg": "/al-app/static/media/arts.ff348538163407f377eb.jpg",
     "static/media/arc-3.png": "/al-app/static/media/arc-3.f785d4271082d704afda.png",
     "static/media/zenblog.png": "/al-app/static/media/zenblog.5a2913e42a3c1c537476.png",
     "static/media/arc-4.png": "/al-app/static/media/arc-4.dcb379027ff576cd96dc.png",
@@ -148,11 +147,11 @@
     "static/media/repeater.jfif": "/al-app/static/media/repeater.05db68c759716f281331.jfif",
     "static/media/transformer.jfif": "/al-app/static/media/transformer.a1663711957cdb6bff9f.jfif",
     "index.html": "/al-app/index.html",
-    "main.74b781fa.css.map": "/al-app/static/css/main.74b781fa.css.map",
-    "main.234710b6.js.map": "/al-app/static/js/main.234710b6.js.map"
+    "main.2ad75e7d.css.map": "/al-app/static/css/main.2ad75e7d.css.map",
+    "main.84ee303c.js.map": "/al-app/static/js/main.84ee303c.js.map"
   },
   "entrypoints": [
-    "static/css/main.74b781fa.css",
-    "static/js/main.234710b6.js"
+    "static/css/main.2ad75e7d.css",
+    "static/js/main.84ee303c.js"
   ]
 }
