@@ -11,6 +11,7 @@
     "@uiw/react-textarea-code-editor": "^2.1.0",
     "aos": "^2.3.4",
     "axios": "^1.4.0",
+    "framer-motion": "^12.38.0",
     "g": "^2.0.1",
     "jquery": "^3.6.3",
     "json-server": "^0.17.3",
