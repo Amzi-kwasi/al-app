@@ -4,12 +4,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 import ThemeToggle from './ThemeToggle';
 
 const NAV_LINKS = [
-  { to: '#/', label: 'Home' },
-  { to: '#/about', label: 'About' },
-  { to: '#/services', label: 'Services' },
-  { to: '#/portfolio', label: 'Portfolio' },
-  { to: '#/pricing', label: 'Pricing' },
-  { to: '#/contact', label: 'Contact' },
+  { to: '/', label: 'Home' },
+  { to: '/about', label: 'About' },
+  { to: '/services', label: 'Services' },
+  { to: '/portfolio', label: 'Portfolio' },
+  { to: '/pricing', label: 'Pricing' },
+  { to: '/contact', label: 'Contact' },
 ];
 
 export default function Navbar() {
@@ -36,7 +36,7 @@ export default function Navbar() {
         transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
       >
         {/* Brand */}
-        <Link to="#/" className="navbar-brand">
+        <Link to="/" className="navbar-brand">
           <img src="/assets/logo.jpg" alt="Asvan Studio" className="navbar-logo" />
           <span className="navbar-brand-name gradient-text">ASV</span>
         </Link>
@@ -58,7 +58,7 @@ export default function Navbar() {
         {/* Actions */}
         <div className="navbar-actions">
           <ThemeToggle />
-          <Link to="#/contact" className="navbar-cta">
+          <Link to="/contact" className="navbar-cta">
             Get a Quote
           </Link>
           <button
@@ -89,7 +89,7 @@ export default function Navbar() {
               </NavLink>
             ))}
             <Link
-              to="#/contact"
+              to="/contact"
               style={{ marginTop: 12 }}
               className="btn-primary"
               onClick={() => setMenuOpen(false)}
