@@ -171,7 +171,7 @@ export default function About() {
                 Let's talk about your project — no commitment, no pressure.
               </p>
               <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
-                <Link to="#/contact" className="btn-primary">Start a Conversation →</Link>
+                <Link to="#/contact" className="btn-primary">Start a Conversation</Link>
                 <Link to="#/portfolio" className="btn-outline">View Our Work</Link>
               </div>
             </motion.div>
