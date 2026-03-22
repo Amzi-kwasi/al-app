@@ -177,18 +177,21 @@ export function LiveDemo() {
 // ─── PricingPage.jsx ──────────────────────────────────
 const PLANS = [
   {
-    name: 'Starter', price: '$2,400', period: '/project', featured: false,
-    tagline: 'Great for small businesses & MVPs',
-    features: [
-      'Up to 5 Designed Pages',
-      'UI/UX Design Only',
-      'Figma Prototype',
-      'Mobile Responsive',
-      '2 Revision Rounds',
-      'Style Guide',
-      '2-Week Delivery',
-    ],
-  },
+  name: 'Starter',
+  price: '$1,200',
+  period: '/project',
+  featured: false,
+  tagline: 'Perfect for small businesses',
+  features: [
+    'Up to 4 Pages',
+    'UI/UX Design + Website Development',
+    'Mobile Responsive Design',
+    'Contact Form Integration',
+    'Basic SEO Setup',
+    '2 Revision Rounds',
+    '1–2 Week Delivery'
+  ]
+},
  {
 name: 'Growth',
 price: '$2,800',
@@ -207,18 +210,23 @@ features: [
 ],
 },
   {
-    name: 'Scale', price: '$12,000', period: '/project', featured: false,
-    tagline: 'For established brands & platforms',
-    features: [
-      'Up to 40 Pages',
-      'Full-Stack Development',
-      'Mobile App (1 Platform)',
-      'Brand Identity Package',
-      'SEO & Performance Audit',
-      '8 Revision Rounds',
-      '8-Week Delivery',
-    ],
-  },
+  name: 'Scale',
+  price: '$7,500',
+  period: '/project',
+  featured: false,
+  tagline: 'For established brands & growing platforms',
+  features: [
+    'Up to 20 Pages',
+    'Advanced UI/UX + React Development',
+    'CMS Integration',
+    'Up to 3 API Integrations',
+    'Basic SEO Setup',
+    'Performance Optimization',
+    '4 Revision Rounds',
+    '6-Week Delivery',
+    'Priority Support (30 Days)'
+  ]
+},
   {
     name: 'Enterprise', price: 'Custom', period: '', featured: false,
     tagline: 'Tailored to your organization',
