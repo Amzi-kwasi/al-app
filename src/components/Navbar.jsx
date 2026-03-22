@@ -4,12 +4,12 @@ import { motion, AnimatePresence } from 'framer-motion';
 import ThemeToggle from './ThemeToggle';
 
 const NAV_LINKS = [
-  { to: '/', label: 'Home' },
-  { to: '/about', label: 'About' },
-  { to: '/services', label: 'Services' },
-  { to: '/portfolio', label: 'Portfolio' },
-  { to: '/pricing', label: 'Pricing' },
-  { to: '/contact', label: 'Contact' },
+  { to: '#/', label: 'Home' },
+  { to: '#/about', label: 'About' },
+  { to: '#/services', label: 'Services' },
+  { to: '#/portfolio', label: 'Portfolio' },
+  { to: '#/pricing', label: 'Pricing' },
+  { to: '#/contact', label: 'Contact' },
 ];
 
 export default function Navbar() {
@@ -37,8 +37,8 @@ export default function Navbar() {
       >
         {/* Brand */}
         <Link to="/" className="navbar-brand">
-          <img src="/assets/logo.png" alt="Asvan Studio" className="navbar-logo" />
-          <span className="navbar-brand-name gradient-text">Asvan Studio</span>
+          <img src="/assets/logo.jpg" alt="Asvan Studio" className="navbar-logo" />
+          <span className="navbar-brand-name gradient-text">ASV</span>
         </Link>
 
         {/* Desktop Nav */}
