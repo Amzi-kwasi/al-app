@@ -25,7 +25,7 @@ export default function Sidebar({ isOpen, onClose }) {
     >
       {/* Brand */}
       <div className="sidebar-brand">
-        <img src="/assets/logo.png" alt="Asvan" style={{ height: 32, width: 32, objectFit: 'contain' }} />
+        <img src="/assets/logo.jpg" alt="Asvan" style={{ height: 32, width: 32, objectFit: 'contain' }} />
         <span className="sidebar-brand-name gradient-text">Asvan Studio</span>
       </div>
 
