@@ -118,9 +118,9 @@ export default function Footer() {
             </h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
               {[
-                { icon: '📍', text: '24 Innovation Way, San Francisco, CA 94103' },
-                { icon: '✉️', text: 'hello@asvanstudio.com' },
-                { icon: '📞', text: '+1 (415) 820-9400' },
+                { icon: '📍', text: 'Accra, Ghana' },
+                { icon: '✉️', text: 'asvstudio@gmail.com' },
+                { icon: '📞', text: '0549271528, 0549548274' },
               ].map(item => (
                 <div key={item.icon} style={{ display: 'flex', alignItems: 'flex-start', gap: 12, fontSize: 14, color: 'var(--text-secondary)' }}>
                   <span style={{ fontSize: 16, flexShrink: 0 }}>{item.icon}</span>
