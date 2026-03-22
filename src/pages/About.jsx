@@ -5,10 +5,10 @@ import Footer from '../components/Footer';
 import ScrollToTop from '../components/ScrollToTop';
 
 const TEAM = [
-  { name: 'Alex Rivera', role: 'Founder & Creative Director', avatar: '/assets/avatar1.jpg', bio: '12+ years shaping digital products for Fortune 500 companies and high-growth startups.' },
-  { name: 'Priya Nair', role: 'Head of UX Design', avatar: '/assets/avatar2.jpg', bio: 'Former lead designer at Google and Airbnb, specializing in conversion-focused UX systems.' },
-  { name: 'Jordan Miles', role: 'Technical Lead', avatar: '/assets/avatar1.jpg', bio: 'Full-stack architect with deep expertise in React, Node.js, and cloud infrastructure.' },
-  { name: 'Sofia Chen', role: 'Brand Strategist', avatar: '/assets/avatar2.jpg', bio: 'Brand strategist who has built identity systems for over 80 global companies.' },
+  { name: 'Alex Rivera', role: 'Founder & Creative Director', avatar: 'https://lh3.googleusercontent.com/pw/AP1GczMl8wdr9VDmaWC4iQmy0RNn6tVRPg2I5JHvOOgvoQadI4eRQK0CV08McGCNHYtw-8MmykWWBW0qGB-DDpiV_kgNeXzOpItEdxqi5dBMCk2WftdNhi8', bio: '12+ years shaping digital products for Fortune 500 companies and high-growth startups.' },
+  { name: 'Priya Nair', role: 'Head of UX Design', avatar: 'https://lh3.googleusercontent.com/pw/AP1GczMl8wdr9VDmaWC4iQmy0RNn6tVRPg2I5JHvOOgvoQadI4eRQK0CV08McGCNHYtw-8MmykWWBW0qGB-DDpiV_kgNeXzOpItEdxqi5dBMCk2WftdNhi8', bio: 'Former lead designer at Google and Airbnb, specializing in conversion-focused UX systems.' },
+  { name: 'Jordan Miles', role: 'Technical Lead', avatar: 'https://lh3.googleusercontent.com/pw/AP1GczMl8wdr9VDmaWC4iQmy0RNn6tVRPg2I5JHvOOgvoQadI4eRQK0CV08McGCNHYtw-8MmykWWBW0qGB-DDpiV_kgNeXzOpItEdxqi5dBMCk2WftdNhi8', bio: 'Full-stack architect with deep expertise in React, Node.js, and cloud infrastructure.' },
+  { name: 'Sofia Chen', role: 'Brand Strategist', avatar: 'https://lh3.googleusercontent.com/pw/AP1GczMl8wdr9VDmaWC4iQmy0RNn6tVRPg2I5JHvOOgvoQadI4eRQK0CV08McGCNHYtw-8MmykWWBW0qGB-DDpiV_kgNeXzOpItEdxqi5dBMCk2WftdNhi8', bio: 'Brand strategist who has built identity systems for over 80 global companies.' },
 ];
 
 const VALUES = [
