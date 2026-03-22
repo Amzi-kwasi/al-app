@@ -103,7 +103,7 @@ function LogoIntro({ onDone }) {
       transition={{ duration: 0.5 }}
     >
       <motion.img
-        src="/assets/logo.png"
+        src="/assets/logo.jpg"
         alt="Asvan"
         className="logo-intro-img"
         initial={{ scale: 0.7, opacity: 0 }}
