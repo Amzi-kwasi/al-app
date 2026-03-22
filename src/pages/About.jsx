@@ -12,7 +12,7 @@ const TEAM = [
 ];
 
 const VALUES = [
-  { icon: '◈', title: 'Craft Over Speed', desc: 'We never ship work we aren't proud of. Every pixel, every line of code is deliberate.' },
+  { icon: '◈', title: 'Craft Over Speed', desc: 'We never ship work we are not proud of. Every pixel, every line of code is deliberate.' },
   { icon: '◎', title: 'Client Partnership', desc: 'We embed ourselves in your goals. Your success metrics become our north star.' },
   { icon: '⊞', title: 'Data-Informed', desc: 'Design decisions backed by research, analytics, and proven UX principles.' },
   { icon: '⬡', title: 'Radical Transparency', desc: 'No surprises. We communicate proactively and keep you in the loop at every stage.' },
