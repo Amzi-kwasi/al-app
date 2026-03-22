@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+
 
 const SERVICES = [
   'UI/UX Design',
@@ -11,19 +11,19 @@ const SERVICES = [
 ];
 
 const COMPANY = [
-  { label: 'About Us', to: '/about' },
-  { label: 'Portfolio', to: '/portfolio' },
-  { label: 'Pricing', to: '/pricing' },
-  { label: 'Case Studies', to: '/case-study' },
-  { label: 'Contact', to: '/contact' },
+  { label: 'About Us', to: '#/about' },
+  { label: 'Portfolio', to: '#/portfolio' },
+  { label: 'Pricing', to: '#/pricing' },
+  { label: 'Case Studies', to: '#/case-study' },
+  { label: 'Contact', to: '#/contact' },
 ];
 
 const SOCIALS = [
-  { icon: '𝕏', href: '#', label: 'Twitter' },
-  { icon: 'in', href: '#', label: 'LinkedIn' },
-  { icon: 'be', href: '#', label: 'Behance' },
-  { icon: 'gh', href: '#', label: 'GitHub' },
-  { icon: '▶', href: '#', label: 'YouTube' },
+  { icon: '𝕏', href: '#/', label: 'Twitter' },
+  { icon: 'in', href: '#/', label: 'LinkedIn' },
+  { icon: 'be', href: '#/', label: 'Behance' },
+  { icon: 'gh', href: '#/', label: 'GitHub' },
+  { icon: '▶', href: '#/', label: 'YouTube' },
 ];
 
 export default function Footer() {
@@ -33,8 +33,8 @@ export default function Footer() {
         <div className="footer-grid">
           {/* Brand col */}
           <div>
-            <Link to="/" className="navbar-brand" style={{ marginBottom: 20, display: 'inline-flex' }}>
-              <img src="/assets/logo.png" alt="Asvan Studio" className="navbar-logo" />
+            <Link to="#/" className="navbar-brand" style={{ marginBottom: 20, display: 'inline-flex' }}>
+              <img src="/assets/logo.jpg" alt="Asvan Studio" className="navbar-logo" />
               <span className="navbar-brand-name gradient-text">Asvan Studio</span>
             </Link>
             <p style={{ fontSize: 14, color: 'var(--text-secondary)', lineHeight: 1.8, marginBottom: 28, maxWidth: 300 }}>
@@ -78,7 +78,7 @@ export default function Footer() {
               {SERVICES.map(s => (
                 <li key={s}>
                   <Link
-                    to="/services"
+                    to="#/services"
                     style={{ fontSize: 14, color: 'var(--text-secondary)', transition: 'var(--transition)' }}
                     onMouseEnter={e => e.currentTarget.style.color = 'var(--text-primary)'}
                     onMouseLeave={e => e.currentTarget.style.color = 'var(--text-secondary)'}
